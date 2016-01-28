@@ -1,0 +1,142 @@
+html {
+	background-color: white;
+}
+
+body {
+	margin: 0;
+}
+
+.xpdc_requestForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 300px;
+	align-items: center;
+}
+
+.xpdc_fb_login {
+		top: 0;
+		bottom: 0;
+		left: 0
+		right: 0;
+		position: absolute;
+		background-color: #172A3E;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+}
+
+.xpdc_button {
+	border: 2px solid white;;
+	padding: 10px;
+	background-color: #274769;
+	color: white;
+	border-radius: 50px;
+	align-self: center;
+	-webkit-appearance: none;
+	width: 350px;
+	margin-bottom: 15px;
+	margin-top: 100px;
+	cursor: pointer;
+}
+
+.xpdc_comments_button {
+	/* align-self: center; */
+	display: flex;
+	justify-content: space-around;
+	/* text-align: center; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+.xpdc_button_posts_wrapper {
+	margin-top: 150px;
+}
+
+.xpdc_button_posts {
+		padding: 25px;
+}
+
+
+.xpdc_posts_select_wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.xpdc_posts_select_wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.hidden {
+	visibility: hidden;
+	transition: visibility .2s;
+}
+.xpdc_requestForm--textInput {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.xpdc_inputLabel--text {
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+}
+
+.xpdc_input--text {
+	text-align: center;
+	align-self: center;
+	margin-bottom: 15px;
+	color: #274769;
+	border-radius: 25px;
+	-webkit-appearance: none;
+	background-color: #FFFFFF;
+	height: 25px;
+	padding: 10px;
+	border: 2px solid #274769;
+	flex: 1 1 auto;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.xpdc_requestForm--dateRange {
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+	align-self: center;
+}
+
+
+/* Date picker override */
+
+.datepick-popup {
+	margin-left: 60px;
+}
+
+.datepick-ctrl {
+	background-color: #274769 !important;
+}
+
+.datepick-month-header, .datepick-month-header select, .datepick-month-header input {
+	background-color: #274769 !important;
+}
+
+.datepick-month th, .datepick-month th a {
+	background-color: #5F758C !important;
+}
+
+.datepick a {
+	color: #274769 !important;
+
+}
+
+.datepick-nav {
+	background-color: white !important;
+}
+
+.datepick-cmd:hover {
+    background-color: white !important;
+		color: #4385D0 !important;
+}
